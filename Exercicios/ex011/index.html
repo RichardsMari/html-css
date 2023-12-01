@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em váios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="assets/image-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="assets/image-m.png" type="image/png">
+        <img src="assets/image-l.png" alt="">
+    </picture>
+
+    <h1>Repruzindo áudio</h1>
+    <audio  src="audio/speakthetrue.mp3" controls autoplay ></audio>
+    <p>Outros tipos de arquivo</p>
+    <audio preload="metadata" controls
+        source src="audio/speakthetrue.mp3" type="audio/mpeg"></audio>
+    <p>Infelizmente seu navegador não consegue reproduzir audio <a href="audio/speakthetrue.mp3">Cique aqui para baixar o arquivo</a></p>
+    
+</body>
+</html>

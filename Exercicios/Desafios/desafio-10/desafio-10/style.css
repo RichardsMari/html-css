@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: 'iDroid';
+    src: url('iDroid.otf');
+    format('opentype');
+}
+
+*{
+    margin: 0;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #83E1AD;
+    color:rgb(57, 54, 54) ;
+}
+
+
+main{
+   
+   min-width: 400px;
+   max-width: 800px; 
+   margin: auto;
+   padding: 10px 10px 5px 10px;
+   background-color: aliceblue;
+}
+
+header{
+        padding: 30px 10px 30px 10px;
+        height: 150px;
+        background: linear-gradient(#2fa866, #063d1e);
+        color:white;
+        height: 100px;
+    }
+
+.cabecalho{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    }
+
+.texto_cabecalho{ 
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+nav{
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.texto-main{
+    font-family:'iDroid';
+    color: #063d1e;
+    padding: 8px 8px 0px 8px;   
+}
+picture{
+    margin: auto;
+}
+
+h2, .mascote {
+    font-family:'iDroid';
+    font-size: 18px;
+    background-image:linear-gradient(to right, #83e1ad, #c5ebd688);
+    color:#063d1e;    
+    padding-left: 8px;
+}
+
+p{
+    text-indent: 30px;
+    margin: 16px;
+}
+
+.bugdroid{
+  margin-left: 250px;
+}
+
+.dandroids{
+    color:#063d1e;   
+}
+
+.link{
+    color: #063d1e;
+    background-color: #4cb379;
+    padding: 0;
+}
+
+a:hover{
+    background-color: #1f7544;
+    color: #063d1e;
+    border-radius: 5px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.link::after{
+    content: '\01F517';
+}
+
+.video-fundo{
+    background-color: #1f7544;
+}
+
+.video{
+margin-left: 150px;
+}
+
+.listas{
+    max-width: auto;
+    background-color: #6ee4a1;
+    border-radius: 0 0 10px 10px;
+    padding: 8px 20px 20px 20px;
+    margin:0px 5px 5px 5px;
+    font-weight: lighter;
+}
+
+.listas-assunto{
+margin: 5px 8px 8px 8px
+}
+
+.listas-aprender{
+    max-width: auto;
+    background-color: #124126;
+    border-radius: 10px 10px 0px 0px;
+    border: 5px 0px 0px 0px;
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;   
+}
+
+li{
+    list-style-type: none;
+    display: block;
+}
+
+li::before{
+    content: '\2713';
+   
+}
+.ul-first{
+    align-items:flex-start ;
+    display: inline-block;
+    width: 360px;
+    padding-left: 0;
+}
+
+.ul-second{
+    align-items:flex-start ;
+    display: inline-block;
+    width: ;
+    padding-left: 0;
+
+}
+
+.link-li{
+    text-decoration: underline;
+    color: #063d1e;
+}
+
+footer{
+    margin: 0;
+    background-color: #124126;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+footer > p{
+    margin: 0;
+}
